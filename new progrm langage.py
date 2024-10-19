@@ -1,10 +1,9 @@
 word = (
-    "print('arthur是傻子')//一个打印'arthur是傻子'的语句",
-    "print('小僵也是傻子')//一个打印'小僵也是傻子'的语句"
+    "print('a')/#/一个打印'a'的语句",
+    "print('b')/#/一个打印'b'的语句"
 )
-comment = {"print('arthur是傻子')":"一个打印'arthur是傻子'的语句","print('小僵也是傻子')":"一个打印'小僵也是傻子'的语句"}
-set1 = "//"  
-set2 = "/#/"  
+set2 = "///"  
+set1 = "/#/"  
 def f1(x, y, z):
     result = []
     for text in x:
